@@ -66,11 +66,13 @@
     <Compile Include="Assets\Scripts\MouseOrbitImproved.cs" />
     <Compile Include="Assets\Scripts\MainMenuBallRespawner.cs" />
     <Compile Include="Assets\Scripts\Catcher.cs" />
+    <Compile Include="Assets\Scripts\Teleporter.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\GoalTrigger.cs" />
     <Compile Include="Assets\Scripts\StartGizmo.cs" />
-    <Compile Include="Assets\Scripts\Teleporter.cs" />
+    <Compile Include="Assets\Pickup.cs" />
+    <Compile Include="Assets\Movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
