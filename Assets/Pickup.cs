@@ -20,6 +20,7 @@ public class Pickup : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Blocker.SetActive(false);
+        this.gameObject.SetActive(false);
     }
     
 }
